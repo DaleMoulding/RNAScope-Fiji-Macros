@@ -29,5 +29,10 @@ RNAScopeCv301 runs on a folder of 4 channel images. Dapi, and 3 RNAScope channel
 
 RNAScopeCv202 runs on a single image.
 
+Widefield Macros
 
+SinglePunctaFuncWFv503, AllPunctaFuncWFv504 to test the 6 variable required.
+6 variables, Channel Number to analyse, Small Spot size, Large Spot size, Outlier size.
+Recommend (2, 1.2, 5, 1000, 3, 200) for 570 & (3, 1.5, 10, 1000, 5, 100) for 690 puncta.
+for single puncta: (2, 1.2, 5, 6, 3, 200) for 570; (3, 1.5, 10, 12, 5, 100) for 690 puncta.
 
