@@ -5,7 +5,7 @@ All macros still in development.
 
 One set was desigend to work on confocal images, the second set for widefield images.
 
-##All covered by MIT license.
+## All covered by MIT license.
 
 The idea is to firstly identify the dimmest puncta, to set a value for a single spot. Then identify all puncta, and score each puncta relative to a single spot.
 Cells are then identified in the Dapi channal and all cells scored for nuber of spots, and also each spot is scored relative to a single puncta.
