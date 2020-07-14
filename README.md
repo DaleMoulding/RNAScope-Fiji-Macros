@@ -26,6 +26,7 @@ Confocal Recommend (2, 1.0, 500, 5, 5000, 4, 500); (3/4, 1.0, 1000, 5, 5000, 8, 
 Single Puncta: Make the Large spot size 1.5x small spots size, and round up to nearest whole number.
 
 RNAScopeCv301 runs on a folder of 4 channel images. Dapi, and 3 RNAScope channels. (Crashes if no puncta detected).
+
 RNAScopeCv202 runs on a single image.
 
 
