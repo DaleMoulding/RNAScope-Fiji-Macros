@@ -8,7 +8,7 @@ One set was desigend to work on confocal images, the second set for widefield im
 ## All covered by MIT license.
 
 The idea is to firstly identify the dimmest puncta, to set a value for a single spot. Then identify all puncta, and score each puncta relative to a single spot.
-Cells are then identified in the Dapi channal and all cells scored for nuber of spots, and also each spot is scored relative to a single puncta.
+Cells are then identified in the Dapi channel and all cells scored for nuber of spots, and also each spot is scored relative to a single puncta.
 
 SinglePunctaFuncvC404.ijm and AllPunctaFuncvC405 allow you to test the puncta identification on individual images.
 You need to fine tune variables. (More help to come, advice for setting the variables).
@@ -39,5 +39,7 @@ Recommend (2, 1.2, 5, 1000, 3, 200) for 570 & (3, 1.5, 10, 1000, 5, 100) for 690
 
 for single puncta: (2, 1.2, 5, 6, 3, 200) for 570; (3, 1.5, 10, 12, 5, 100) for 690 puncta.
 
+RNAScopeWFv204 works on a single open image (Ch1 = Dapi, CH2&3 = RNAScope).
+RNAScopeWFv301 works on a folder of images.
 
 
